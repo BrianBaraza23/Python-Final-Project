@@ -142,7 +142,7 @@ def rate_movie(title, rating):
     finally:
         session.close()
 
-# Add a welcome message and instructions
+
 @click.command()
 def welcome():
     click.echo("Welcome to Baraza movie store!")
